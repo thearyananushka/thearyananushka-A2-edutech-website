@@ -1,0 +1,11 @@
+/* Basic styles for customization */
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  

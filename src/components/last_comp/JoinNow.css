@@ -1,0 +1,47 @@
+/* JoinNow.css */
+
+.flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .bg-indigo-50 {
+    background-color: #f3f4f6; /* Light indigo background */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-gray-600 {
+    color: #4b5563; /* Darker gray text */
+  }
+  
+  .text-gray-800 {
+    color: #1f2937; /* Dark gray text */
+  }
+  
+  .hover\:bg-indigo-500:hover {
+    background-color: #4c51bf; /* Darker indigo on hover */
+  }
+  
+  .transition {
+    transition: background-color 0.3s ease;
+  }
+  

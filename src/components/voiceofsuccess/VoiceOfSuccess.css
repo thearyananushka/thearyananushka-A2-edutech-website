@@ -1,0 +1,36 @@
+/* Hide scrollbar for IE, Edge and Firefox */
+#testimonialCards::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #testimonialCards {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  
+  #testimonialCards {
+    position: relative;
+    padding-right: 2rem;
+  }
+  
+  .fade-effect-left,
+  .fade-effect-right {
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .fade-effect-left {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+  
+  .fade-effect-right {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+  

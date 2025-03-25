@@ -1,0 +1,14 @@
+.accordion-item {
+    transition: all 0.3s ease;
+  }
+  
+  .accordion-header {
+    background-color: #f7fafc; /* Light background for the header */
+    border-radius: 8px;
+  }
+  
+  .accordion-body {
+    background-color: #ffffff; /* White background for the body */
+    border-radius: 0 0 8px 8px;
+  }
+  

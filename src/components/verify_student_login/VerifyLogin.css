@@ -1,0 +1,38 @@
+/* VerifyLogin.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .text-indigo-600 {
+    color: #5c6bc0;
+  }
+  
+  .text-indigo-700 {
+    color: #3949ab;
+  }
+  
+  .rounded-lg {
+    border-radius: 10px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shake {
+    animation: shake 0.3s ease-in-out;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  

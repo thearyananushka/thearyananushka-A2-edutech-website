@@ -1,0 +1,35 @@
+/* Default styles (applies to all devices) */
+h1 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .typewriter-text {
+    font-weight: 700; /* Equivalent to font-bold */
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    color: #4F46E5; /* Equivalent to text-indigo-600 */
+  }
+  
+  
+  /* Media query for phone devices (screen width < 640px) */
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 1.8rem; /* Slightly larger font size */
+      line-height: 1.8rem; /* Increased line height for readability */
+    }
+  
+    p {
+      font-size: 1.4rem; /* Slightly larger font size */
+      line-height: 1.6rem; /* Increased line height for readability */
+    }
+  
+    button {
+      font-size: 1.2rem; /* Slightly larger button text */
+    }
+  }
+  

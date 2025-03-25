@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Ensure the sidebar and dashboard layout is flexible */
+.app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    background-color: #0057D9;
+    width: 250px;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  /* Dashboard Main Content */
+  .dashboard {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Grid layout for cards and charts */
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  /* Responsive grid for cards */
+  .grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+  
+  .md\\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Responsive grid for charts */
+  .md\\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Responsive containers */
+  .bar-chart, .pie-chart, .line-chart {
+    width: 100%;
+    max-width: 100%;
+  }
+  

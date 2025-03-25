@@ -1,0 +1,9 @@
+/* Hover and zoom effect for the program cards */
+.program-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .program-card:hover {
+    transform: scale(1.05); /* Zoom effect */
+  }
+  
